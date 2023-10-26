@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: url("./images/bg-desktop.png");
+    background-repeat:no-repeat;
+    background-color: hsl(229, 57%, 11%);
+    background-position: bottom;
+    background-size:contain;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+    align-items: center;
+}
+.container{
+    width: 70%;
+    height: 30vh;
+    display: grid;
+    grid-template-columns: 30% 50%;
+    /* border: 1px solid red; */
+   column-gap: 4rem;
+
+
+}
+.logo{
+    width: 300px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: left;
+   flex-direction: column;
+   /* border: 1px solid blue; */
+   padding: 2.3rem;
+   background-color: hsl(228, 56%, 26%);
+   row-gap: 20px;
+   border-radius: 0.8rem;
+   border-top-right-radius: 6rem;
+   margin-left: 10px;
+}
+.icons{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+     /* border: 1px solid green; */
+     border-top-right-radius: 20px;
+
+
+} 
+.icons img{
+    width: 20px;
+    /* border: 1px solid red; */
+    height: 17px;
+    border-radius: 5px;
+    background-color: rgb(2, 46, 2);
+    /* border-spacing: -20px; */
+
+}
+.document,.folder,.upload{
+    /* border: 1px solid red; */
+    padding: 10px;
+    border-radius: 5px;
+    background-color: hsl(229, 57%, 11%);
+}
+.progress{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    /* border: 1px solid green; */
+    background-color: hsl(228, 56%, 26%);
+    row-gap: 10px;
+    border-radius: 0.8rem;
+    padding: 2rem;
+}
+.progress p{
+    font-size: 15px;
+    color: #f0f0f0;
+    column-gap: 20px;
+}
+.progress p span:nth-last-of-type(2){
+    font-size: 11px;
+}
+.progress p span:nth-last-of-type(1){
+    font-size: 10px;
+}
+.progress-bar{
+    width: 100%;
+    background-color:  hsl(229, 57%, 11%);
+    border-radius: 1rem;
+}
+.ball{
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: hsl(243, 100%, 93%);
+    border-radius: 1rem; 
+}
+.gp{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid yellow; */
+   
+}
+.snow{
+    width:11%;
+    height: 11vh;
+    color:hsl(228, 60%, 21%);
+    /* border: 1px solid white; */
+    position: absolute;
+    right:370px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    top: 175px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  border-radius: 5px;
+}
+.snow strong{
+    font-size: 40px;
+
+}
+strong:nth-last-of-type(3){
+    font-size: 35px;
+}
+strong:nth-last-of-type(2){
+    font-size: 41px;
+    margin-top: 20px;
+}
+strong:nth-last-of-type(1){
+    font-size: 42px}
+.snow span{
+    font-size: 12px;
+    text-align: center;
+    margin-left: 8px;
+    color: gray;
+}
+
+
+.triangle{
+    display: block;
+    width: 0;
+    height: 0;
+    border-right: 20px solid #f0f0f0;
+    border-top: 5px solid #f0f0f0;
+    border-left:10px solid transparent;
+    border-bottom: 30px solid transparent;
+    position: absolute;
+    right: 23.1rem;
+    top: 14.5rem;
+
+
+}
+.progress-length{
+    background: linear-gradient(80deg, hsl(6, 100%, 80%) , hsl(335, 100%, 65%));
+}

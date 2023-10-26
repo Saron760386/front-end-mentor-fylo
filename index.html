@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="github.css">
+  
+  <title>Frontend Mentor | Fylo data storage component</title>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="./images/logo.svg" alt="" style="width: 120px;">
+      <div class="icons">
+        <div class="document">
+        <img src="./images/icon-document.svg" alt="">
+        </div>
+        <div class="folder">
+        <img src="./images/icon-folder.svg" alt="">
+        </div>
+        <div class="upload">
+        <img src="./images/icon-upload.svg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="progress" style="position: relative;z-index: 10;">
+      <p style="color: hsl(228, 7%, 73%);">You'Ve used <span style="color: white;">8</span><span  style="color: white;">1</span><span  style="color: white;">5</span> GB of your storage</p>
+      <div class="progress-bar" style="height: 22%; display: flex; align-items: center;justify-content: left;padding-left: 2px;">
+        <div class="progress-length" style="min-width: 77%; min-height: 90%; border-radius: 2rem;"></div>
+      </div>
+      <div class="ball" style="position: absolute; top: 4; left: 70%; z-index: 10"></div>
+      <div class="gp">
+        <p> <span style="font-size: 12px;">0</span> GB</p>
+        <p><span style="font-size: 12px;">1000</span> GB</p>
+      </div>
+    </div>
+
+    <div class="snow" style="z-index: 10;">
+      <p><strong>1</strong><strong>8</strong><strong>5</strong><span>GB LEFT</span></p>
+    </div>
+
+    <div class="triangle" style="z-index: 10;"></div>
+  </div>
+
+ 
+  
+
+</body>
+</html>
